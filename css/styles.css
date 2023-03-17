@@ -25,6 +25,7 @@ body {
     line-height: 1.5px;
     letter-spacing: 0.02em;
     color: var(--slate-color);
+    background-color: var(--white-color);
 }
 
 .list {
@@ -65,34 +66,15 @@ body {
     letter-spacing: 0.02em;
     color: var(--navy-blue-color);
 }
-
+.main-address {
+    font-style: normal;
+}
 .menu-link:hover,
 .menu-link:focus {
     color: var(--ocean-color); 
 }
 
-.contact-mail link {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5px;
-    letter-spacing: 0.02em;
-    color: var(--slate-color);
-}
-
-.contact-mail {
-    font-style: normal;
-}
-
-.contact-mail {
-    color: var(--slate-color);
-}
-
-.contact-mail:hover,
-.contact-mail:focus {
-    color: var(--ocean-color);
-}
-
-.contact-phone-number {
+.contact link {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -101,11 +83,10 @@ body {
     color: var(--slate-color);
 }
 
-.contact-phone-number:hover,
-.contact-phone-number:focus {
+.contact:hover,
+.contact:focus {
     color: var(--ocean-color);
 }
-
 /* ======= Section Hero ======= */
 .hero {
 background-color: var(--grey-color);
@@ -140,6 +121,7 @@ background-color: var(--grey-color);
 .modal-btn:hover,
 .modal-btn:focus {
     color: var(--ocean-color);
+    background-color: var(--ocean-color);
 }
 
 /* ======= Section 2 ======= */
@@ -147,7 +129,7 @@ background-color: var(--grey-color);
 .third-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue-color);
 }
@@ -162,9 +144,10 @@ background-color: var(--grey-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--slate-color);
+    color: var(--grey-color);
 }
 
 /* ======= Section 4 ======= */
@@ -176,6 +159,7 @@ background-color: var(--grey-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--navy-blue-color);
@@ -205,13 +189,14 @@ color: var(--cloud-color);
 /* ======= Portfolio ======= */
 
 .filter-item-main-btn {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.04em;
-     color: var(--white-color);
-    background: var(--ocean-color);
+     color: var(--iris-color);
+    background: var(--cloud-color);
 }
 
 .filter-item-main-btn:hover,
@@ -221,15 +206,16 @@ color: var(--cloud-color);
 }
 
 .filter-btn {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.04em;
-        color: var(--iris-color);
-        background: var(--cloud-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--iris-color);
+    background: var(--cloud-color);
 }
 
 .filter-btn:hover,
