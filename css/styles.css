@@ -58,7 +58,7 @@ body {
 .studio {
     color: var(--grey-color);
 }
-.menu-link link{
+.menu-item:first-child a{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
