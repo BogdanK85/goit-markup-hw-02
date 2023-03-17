@@ -1,6 +1,5 @@
 :root {
     --primary-font: 'Roboto', sans-serif;
-    --primary-text-color: #434455;
     --secondary-text-color: #2E2F42;
     --iris-color: #4D5AE5;
     --ocean-color: #404BBF;
@@ -59,12 +58,12 @@ body {
 .studio {
     color: var(--grey-color);
 }
-.menu-link {
+.menu-link link{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--navy-blue-color);
+    color: var(--slate-color);
 }
 .main-address {
     font-style: normal;
@@ -80,7 +79,7 @@ body {
     font-size: 16px;
     line-height: 1.5px;
     letter-spacing: 0.02em;
-    color: var(--slate-color);
+    color: var(--#434455);
 }
 
 .contact:hover,
@@ -188,7 +187,7 @@ color: var(--cloud-color);
 
 /* ======= Portfolio ======= */
 
-.filter-item-main-btn {
+.filter-item-btn {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -199,24 +198,14 @@ color: var(--cloud-color);
     background: var(--cloud-color);
 }
 
-.filter-item-main-btn:hover,
-.filter-item-main-btn:focus,
+.filter-item-btn:hover,
+.filter-item-btn:focus,
 .filter-item-main-btn {
+        color: var(--white-color);
+    background-color: var(--ocean-color);
     cursor: pointer;
 }
 
-.filter-btn {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: var(--iris-color);
-    background: var(--cloud-color);
-}
 
 .filter-btn:hover,
 .filter-btn:focus,
