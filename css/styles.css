@@ -63,7 +63,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate-color);
+    color: var(--navy-blue-color);
 }
 .main-address {
     font-style: normal;
@@ -75,11 +75,11 @@ body {
 
 .contact link {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5px;
     letter-spacing: 0.02em;
-    color: var(--#434455);
+    color: var(--slate-color);
 }
 
 .contact:hover,
