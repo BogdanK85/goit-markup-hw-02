@@ -38,7 +38,6 @@ body {
     text-decoration: none;
 }
 
-
 .logo {
     width: 44px;
     height: 21px;
@@ -75,14 +74,16 @@ body {
     color: var(--ocean-color); 
 }
 
-.main-address .main-address-list .link {
+.main-address {
     font-style: normal;
+}
+.main-address .main-address-list .link {
     color: var(--slate-color);
 }
 .main-address-item {
     color: var(--slate-color);
 }
-.contact .link {
+.contact.link {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -91,10 +92,10 @@ body {
     color: var(--slate-color);
 }
 
-.contact:hover {
+.contact.link:hover {
     color: var(--ocean-color);
 }
-.contact:focus {
+.main-address .main-address-list .link:hover {
     color: var(--ocean-color);
 }
 /* ======= Section Hero ======= */
@@ -198,7 +199,7 @@ color: var(--cloud-color);
 
 /* ======= Portfolio ======= */
 
-.filter-item-btn .filter-item {
+.filter-item-btn.filter-item {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
