@@ -75,14 +75,14 @@ body {
     color: var(--ocean-color); 
 }
 
-.main-address {
+.main-address .main-address-list .link {
     font-style: normal;
     color: var(--slate-color);
 }
 .main-address-item {
     color: var(--slate-color);
 }
-.contact link {
+.contact .link {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -198,21 +198,23 @@ color: var(--cloud-color);
 
 /* ======= Portfolio ======= */
 
-.filter-item-btn {
+.filter-item-btn .filter-item {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.04em;
-     color: var(--iris-color);
+
+}
+.filter-item {
+    color: var(--iris-color);
     background: var(--cloud-color);
 }
 
-.filter-item-btn:hover,
-.filter-item-btn:focus,
-.filter-item-btn {
-        color: var(--white-color);
+.filter-item .filter-item:hover,
+.filter-item .filter-item:focus {
+    color: var(--white-color);
     background-color: var(--ocean-color);
     cursor: pointer;
 }
